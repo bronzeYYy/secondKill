@@ -4,13 +4,13 @@
 
 #### 获取所有商品流程
 
-![获取商品流程](E:\idea\Github\secondkill\获取商品流程.png)
+![获取商品流程](获取商品流程.png)
 
 #### 
 
 #### 秒杀流程
 
-![秒杀流程](E:\idea\Github\secondkill\秒杀流程.png)
+![秒杀流程](秒杀流程.png)
 
 
 
