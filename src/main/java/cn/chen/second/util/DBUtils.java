@@ -54,7 +54,7 @@ public final class DBUtils {
         mysqlDataSource.setAutoReconnect(true);
         mysqlDataSource.setURL("jdbc:mysql://localhost:3306/second_kill?characterEncoding=utf-8");
         mysqlDataSource.setUser("root");
-        mysqlDataSource.setPassword("9674464343..as");
+        mysqlDataSource.setPassword("123456");
         try {
             return mysqlDataSource.getConnection();
         } catch (SQLException e) {
