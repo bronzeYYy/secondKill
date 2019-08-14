@@ -2,13 +2,17 @@
 
 ### 大致流程
 
-#### 秒杀流程
-
-![1565778157295](C:\Users\17691\AppData\Roaming\Typora\typora-user-images\1565778157295.png)
-
 #### 获取所有商品流程
 
-![1565778400338](C:\Users\17691\AppData\Roaming\Typora\typora-user-images\1565778400338.png)
+![获取商品流程](E:\idea\Github\secondkill\获取商品流程.png)
+
+#### 
+
+#### 秒杀流程
+
+![秒杀流程](E:\idea\Github\secondkill\秒杀流程.png)
+
+
 
 ### 目的
 
