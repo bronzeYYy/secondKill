@@ -28,7 +28,7 @@ public class JedisDaoImpl implements JedisDao {
             // 方案1：和单例模式一样，只有一个线程进行读取缓存（创建对象）。耗时：5000线程4s772ms
             synchronized(goodsDao) {
                 System.out.println(Thread.currentThread().getName() + ": 进入同步块");
-                if (!jedis.exists("goods")) {
+                if (!jedis.exists("goods")) { // 再次判断
                     System.out.println(Thread.currentThread().getName() + ": 从数据库获取");
                     List<Goods> goods = goodsDao.getAllGoods();
                     goods.forEach(goods1 -> jedis.hset("goods", goods1.getGoodsId() + "", JSON.toJSONString(goods1)));

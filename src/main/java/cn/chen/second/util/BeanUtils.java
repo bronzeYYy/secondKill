@@ -29,7 +29,7 @@ public final class BeanUtils {
         if (beanMap.get(JedisPool.class) == null) {
             synchronized(JedisPool.class) {
                 if (beanMap.get(JedisPool.class) == null) {
-                    beanMap.put(JedisPool.class, new JedisPool("192.168.42.218"));
+                    beanMap.put(JedisPool.class, new JedisPool("192.168.1.105"));
                 }
             }
         }
